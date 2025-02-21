@@ -1,0 +1,232 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background: url('background.jpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Default text color */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: gold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: black;
+    background: gold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.btn {
+    background: gold;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: orange;
+}
+
+/* Rooms Section */
+.section-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: gold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+}
+
+.room-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 10%;
+    flex-wrap: wrap;
+}
+
+.room {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 12px;
+    width: 45%;
+    text-align: center;
+    color: black;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.room:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.room img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.room h3 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.room p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Booking Section */
+#booking {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#booking h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background: gold;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: orange;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+#contact a {
+    color: gold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: orange;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
